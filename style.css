@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+
+  background-image: url("space.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 70px;
+  background-color: rgba(40, 40, 40, 0.9);
+}
+
+.left {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: orange;
+}
+
+.main {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 5rem;
+}
+
+.main span {
+  color: orange;
+}
+
+.main p {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+
+section {
+  padding: 100px 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 20px;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: orange;
+}
+
+section p {
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.6;
+  color: lightgray;
+}
+html {
+  scroll-behavior: smooth;
+}
