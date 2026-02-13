@@ -15,13 +15,21 @@ My portfolio website contains the following sections:
 This section contains:
 My name (Sarthak’s Portfolio)
 A navigation bar (with scroll behaviour enabled, letting user to move to that section):
-About
-Projects
-Contact Me
-Achievement
+
+-About
+
+-Projects
+
+-Contact Me
+
+-Achievement
+
 
 2) Main Section:
    It contains a greeting message: 'Hi, I am Sarthak'
-3)About Section: 
+   
+3)About Section:
+
 4)Projects Section
+
 5) Contact details of me
